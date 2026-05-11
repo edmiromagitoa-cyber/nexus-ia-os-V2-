@@ -1,0 +1,5 @@
+export const logger = {
+  info: (msg: string) => console.log("ℹ️", msg),
+  error: (msg: string) => console.log("❌", msg),
+  success: (msg: string) => console.log("✅", msg)
+};
